@@ -122,10 +122,52 @@ img {
   background-size: cover;
 }
 
-.bg_banner {
-    background: url(../img/black-and-white-code-programming-tech-79290.jpeg);
+.pad120 {
+  padding: 120px 0px;
 }
 
+.bg_banner {
+    background: url(../img/coding.jpeg);
+}
+
+.label {
+  width: 45px;
+  height: 80px;
+  position: absolute;
+  -webkit-transform: translateY(-200px);
+  -ms-transform: translateY(-200px);
+  transform: translateY(-200px);
+  text-align: center;
+  padding-top: 10px;
+}
+
+.label.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.label.dark {
+  background-color: #1b1b1b;
+  color: #fff;
+}
+
+.label.brand {
+  background-color: #ff8a00;
+  color: #fff;
+}
+
+.label.left {
+  left: 0;
+}
+
+.label.right {
+  right: 0;
+}
+
+.label:hover {
+  background-color: : #ff8a00;
+  color: #fff;
+}
 
 /* ========== Navigation CSS ========== */
 /* 2.1 navbar global */
@@ -157,6 +199,7 @@ img {
 .navbar.navbar-default .navbar-brand > img {
   width: 75%;
   position: relative;
+  top: -10px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -230,7 +273,7 @@ img {
 
 .navbar.navbar-default .navbar-nav .dropdown .dropdown-menu > li > a {
   color: #fff;
-  font-size: 13px;
+  font-size: 13px;67%
   padding: 8px 20px;
   text-transform: uppercase;
 }
@@ -322,7 +365,7 @@ img {
 /* ========== Home CSS ========== */
 .banner_home {
     height: 100vh;
-    background-position: center bottom;
+    background-position: bottom right;
     background-size: cover;
 }
 .main_banner_content {
