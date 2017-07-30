@@ -138,21 +138,27 @@ img {
   -ms-transform: translateY(-200px);
   transform: translateY(-200px);
   text-align: center;
-  padding-top: 10px;
+  padding: 10px 0px 0px;
+}
+.label p {
+  padding: 5px 0px;
+}
+.label p i {
+  font-size: 13px;
 }
 
 .label.light {
-  background-color: #fff;
+  background: #fff;
   color: #000;
 }
 
 .label.dark {
-  background-color: #1b1b1b;
+  background: #1b1b1b;
   color: #fff;
 }
 
 .label.brand {
-  background-color: #ff8a00;
+  background: #ff8a00;
   color: #fff;
 }
 
@@ -162,11 +168,6 @@ img {
 
 .label.right {
   right: 0;
-}
-
-.label:hover {
-  background-color: : #ff8a00;
-  color: #fff;
 }
 
 /* ========== Navigation CSS ========== */
@@ -401,4 +402,9 @@ img {
   font-weight: 600;
   text-transform: uppercase;
   padding: 30px 0 35px;
+}
+
+.about_section .label:hover {
+  background: #ff9200;
+  color: #fff;
 }

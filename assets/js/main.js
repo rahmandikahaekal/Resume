@@ -14,41 +14,7 @@
             }
         });
         // on scroll event end
-
-        //portfolio masonry start
-        $('.portfolio-wrap').isotope({
-            itemSelector: '.portfolio-item',
-        });
-        //portfolio masonry end
-
-        //portfolio lightbox start
-        $('.img-lightbox').venobox({
-            spinner: 'double-bounce',
-        });
-        //portfolio lightbox end
-
-        //animated progressbar start
-        $('.progress-bar').each(function(){
-            var width = $(this).data('percent');
-            $(this).css({'transition': 'width 3s'});
-            $(this).appear(function() {
-                console.log('hello');
-                $(this).css('width', width + '%');
-            });
-        });
-        //animated progressbar end
-
-        //testimonial carousel start
-        $('.testimonial-carousel').owlCarousel({
-            items: 1,
-            autoplay: true,
-            nav: false,
-            loop:true,
-            smartSpeed:1000,
-            animateOut: 'fadeInDown',
-            animateIn: 'fadeOutDown',
-        });
-        //testimonial carousel end
+        
 
         // scroller start
         $('a.scroll').bind('click', function(event) {
