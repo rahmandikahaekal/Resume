@@ -31,49 +31,6 @@ body {
   line-height: 16px;
 }
 
-.brand-text-color {
-  color: #ff8a00;
-}
-
-.indicator {
-  width: 45px;
-  height: 80px;
-  position: absolute;
-  -webkit-transform: translateY(-200px);
-  -ms-transform: translateY(-200px);
-  transform: translateY(-200px);
-  text-align: center;
-  padding-top: 10px;
-}
-
-.indicator.light {
-  background: #fff;
-  color: #000;
-}
-
-.indicator.dark {
-  background: #1b1b1b;
-  color: #fff;
-}
-
-.indicator.brand {
-  background: #ff8a00;
-  color: #fff;
-}
-
-.indicator.left {
-  left: 0;
-}
-
-.indicator.right {
-  right: 0;
-}
-
-.indicator:hover {
-  background: #ff8a00;
-  color: #fff;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -113,13 +70,6 @@ img {
 
 .bg-color-dark {
   background: #1b1b1b;
-}
-
-.parallax {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 0;
-  background-size: cover;
 }
 
 .pad120 {
@@ -368,6 +318,7 @@ img {
     height: 100vh;
     background-position: bottom right;
     background-size: cover;
+    background-attachment: fixed;
 }
 .main_banner_content {
     height: 100vh;
