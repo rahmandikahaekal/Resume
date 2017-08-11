@@ -72,15 +72,30 @@ img {
   background: #1b1b1b;
 }
 
-.pad120 {
-  padding: 120px 0px;
-}
+/* Margin Class */
+.mt15 { margin-top: 15px }
+.mt60 { margin-top: 60px }
+.mt65 { margin-top: 65px }
+.mb15 { margin-bottom: 15px }
+.mb30 { margin-bottom: 30px }
+.mb40 { margin-bottom: 40px }
+.mb50 { margin-bottom: 50px }
+.mb60 { margin-bottom: 60px }
+
+/* Padding Class */
+.pad8 { padding: 80px 0px }
+.pb60 { padding-bottom: 60px }
+.pt90 { padding-top: 90px }
+.pt120px { padding-top: 120px }
+.pad120 { padding: 120px 0px }
+.no-pad { padding: 0 }
 
 .bg_banner {
     background: url(../img/coding.jpeg);
 }
 
-.label {
+/*  indicator */
+.indicator {
   width: 45px;
   height: 80px;
   position: absolute;
@@ -88,36 +103,49 @@ img {
   -ms-transform: translateY(-200px);
   transform: translateY(-200px);
   text-align: center;
-  padding: 10px 0px 0px;
-}
-.label p {
-  padding: 5px 0px;
-}
-.label p i {
-  font-size: 13px;
+  padding-top: 10px;
 }
 
-.label.light {
+.indicator.light {
   background: #fff;
   color: #000;
 }
 
-.label.dark {
+.indicator.dark {
   background: #1b1b1b;
   color: #fff;
 }
 
-.label.brand {
+.indicator.brand {
   background: #ff8a00;
   color: #fff;
 }
 
-.label.left {
+.indicator.left {
   left: 0;
 }
 
-.label.right {
+.indicator.right {
   right: 0;
+}
+
+.indicator:hover {
+  background: #ff8a00;
+  color: #fff;
+}
+
+.section_title .title_text {
+  color: #000;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+.section_title .subtitle_text {
+  color: #ff8a00;
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-bottom: 40px;
 }
 
 /* ========== Navigation CSS ========== */
@@ -313,7 +341,7 @@ img {
   }
 }
 
-/* ========== Home CSS ========== */
+/* ========== Banner CSS ========== */
 .banner_home {
     height: 100vh;
     background-position: bottom right;
@@ -354,8 +382,16 @@ img {
   text-transform: uppercase;
   padding: 30px 0 35px;
 }
-
 .about_section .label:hover {
   background: #ff9200;
   color: #fff;
+}
+
+/* ========== About CSS ========== */
+.bio-table table {
+  width: 425px;
+}
+.bio-mail,
+.bio-tel {
+  color: #707070;
 }
