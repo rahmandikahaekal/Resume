@@ -148,6 +148,16 @@ img {
   margin-bottom: 40px;
 }
 
+.alter_text {
+  color: #c2c2c2;
+}
+.alter_text .section_title .title_text, .alter_text .section_title .sm_title_text {
+  color: #fff;
+}
+.alter_text .section_title .subtitle_text {
+  color: #fff;
+}
+
 /* ========== Navigation CSS ========== */
 /* 2.1 navbar global */
 .navbar {
@@ -394,4 +404,36 @@ img {
 .bio-mail,
 .bio-tel {
   color: #707070;
+}
+
+/* ========== Knowledge CSS ========== */
+.ledge_title { 
+  color: #ff8a00;
+  margin-bottom: 15px;
+}
+.ledge_title i,
+.ledge_title h4 {
+  display: inline-block;
+}
+.ledge_title i {
+  margin-right: 25px;
+  font-size: 28px;
+}
+
+.skill h4 {
+  color: #000;
+  margin-bottom: 10px;
+}
+.skill h4 span {
+  margin-left: 50px;
+}
+.skill .progress {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: #d6d6d6;
+}
+.skill .progress .progress-bar {
+  background-color: #ff8a00;
+  -webkit-box-shadow: none;
 }
