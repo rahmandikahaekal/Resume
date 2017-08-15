@@ -15,6 +15,15 @@
         });
         // on scroll event end
         
+        // animated 
+        $('.progress-bar').each(function(){
+            var width = $(this).data('percent');
+            $(this).css({'transition': 'width 3s'});
+            $(this).appear(function() {
+                console.log('hello');
+                $(this).css('width', width + '%');
+            });
+        });
 
         // scroller start
         $('a.scroll').bind('click', function(event) {
