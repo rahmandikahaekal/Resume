@@ -134,12 +134,16 @@ img {
   color: #fff;
 }
 
-.section_title .title_text {
+.section_title .title_text , .section_title .sm_title_text{
   color: #000;
   font-size: 60px;
   line-height: 60px;
   margin-bottom: 60px;
   text-transform: uppercase;
+}
+.section_title .sm_title_text {
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 .section_title .subtitle_text {
   color: #ff8a00;
@@ -407,33 +411,55 @@ img {
 }
 
 /* ========== Knowledge CSS ========== */
-.ledge_title { 
+.feature_box .feature_title {
   color: #ff8a00;
   margin-bottom: 15px;
 }
-.ledge_title i,
-.ledge_title h4 {
+
+.feature_box .feature_title i {
   display: inline-block;
-}
-.ledge_title i {
   margin-right: 25px;
   font-size: 28px;
 }
 
+.feature_box .feature_title h4 {
+  display: inline-block;
+}
+
+.alter_text .skill h4 {
+  color: #fff;
+}
+.alter_text .skill .progress {
+  background-color: #505050;
+}
 .skill h4 {
   color: #000;
   margin-bottom: 10px;
 }
+
 .skill h4 span {
   margin-left: 50px;
 }
+
 .skill .progress {
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 0;
   background-color: #d6d6d6;
 }
+
 .skill .progress .progress-bar {
   background-color: #ff8a00;
   -webkit-box-shadow: none;
+}
+
+/* ========== Experience CSS ========== */
+.experience_item .duration {
+  color: #ff8a00;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  line-height: 30px;
+  border: 8px solid #ff8a00;
+  text-align: center;
+  padding: 50px 0;
 }
