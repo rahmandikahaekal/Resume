@@ -454,12 +454,3 @@ img {
 }
 
 /* ========== Experience CSS ========== */
-.experience_item .duration {
-  color: #ff8a00;
-  font-size: 30px;
-  font-family: "Oswald", sans-serif;
-  line-height: 30px;
-  border: 8px solid #ff8a00;
-  text-align: center;
-  padding: 50px 0;
-}
