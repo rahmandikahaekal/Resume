@@ -15,6 +15,17 @@
         });
         // on scroll event end
         
+        //portfolio masonry start
+        $('.portfolio_wrap').isotope({
+            itemSelector: '.portfolio_item'
+        });
+        //portfolio masonry end
+
+        //portofolio lightbox start
+        $('.img-lightbox').venobox({
+            spinner: 'double-bounce',
+        });
+
         // animated 
         $('.progress-bar').each(function(){
             var width = $(this).data('percent');

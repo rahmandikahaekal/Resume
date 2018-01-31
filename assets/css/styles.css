@@ -477,29 +477,77 @@ img {
 }
 
 /* ========== Portfolio CSS ========== */
-.portfolio_wrap .portfolio_item .portfolio_thumb {
+.portfolio-wrap .portfolio-item .portfolio-thumb {
   position: relative;
 }
 
-.portfolio_wrap .portfolio_item .portfolio_thumb img {
+.portfolio-wrap .portfolio-item .portfolio-thumb img {
   max-width: 100%;
 }
 
-.portfolio_wrap .portfolio_item .portfolio_thumb .overlay {
+.portfolio-wrap .portfolio-item .portfolio-thumb .overley {
   position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   display: block;
   background: rgba(0, 0, 0, 0.5);
   opacity: 0;
   -webkit-transform: scale(0);
-  -moz-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  transition: all 0.3s;
   -webkit-transition: all 0.3s;
-  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.portfolio_wrap .portfolio_item .portfolio_thumb .overlay .portfolio
+.portfolio-wrap .portfolio-item .portfolio-thumb .overley .portfolio-title {
+  color: #fff;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  top: 50%;
+  margin-top: -35px;
+  text-align: center;
+  left: 0;
+  text-transform: uppercase;
+}
+
+.portfolio-wrap .portfolio-item .portfolio-thumb .overley .portfolio-title i {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 15px;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #eee;
+  line-height: 36px;
+  margin-bottom: 20px;
+  margin-left: -3px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.portfolio-wrap .portfolio-item .portfolio-thumb .overley .portfolio-title i:hover {
+  border-color: #ff8a00;
+  background: #ff8a00;
+}
+
+.portfolio-wrap .portfolio-item:hover .overley {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.portfolio-wrap .grid-item {
+  width: 25%;
+  padding: 10px;
+}
+
+.portfolio-wrap .grid-item--width2 {
+  width: 50%;
+}
