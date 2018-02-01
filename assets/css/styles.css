@@ -90,9 +90,21 @@ img {
 .pad120 { padding: 120px 0px }
 .no-pad { padding: 0 }
 
+.parallax {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
 .bg_banner {
     background: url(../img/coding.jpeg);
 }
+
+
+
+.bg-img
+
 
 /*  indicator */
 .indicator {
@@ -161,6 +173,9 @@ img {
 .alter_text .section_title .subtitle_text {
   color: #fff;
 }
+
+
+
 
 /* ========== Navigation CSS ========== */
 /* 2.1 navbar global */
