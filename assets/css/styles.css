@@ -101,9 +101,9 @@ img {
     background: url(../img/coding.jpeg);
 }
 
-
-
-.bg-img
+.bg-img {
+  background-image: url(../img/bg-section.jpeg);
+}
 
 
 /*  indicator */
@@ -566,3 +566,5 @@ img {
 .portfolio-wrap .grid-item--width2 {
   width: 50%;
 }
+
+/* ========== Testimonal CSS ========== */

@@ -35,6 +35,19 @@
                 $(this).css('width', width + '%');
             });
         });
+        //animated progress bar end
+
+        //testimonial carousel start
+        $('.testimonial-carousel').owlCarousel({
+            items: 1,
+            autoplay: true,
+            nav: false,
+            loop: true,
+            smartSpeed: 1000,
+            animateOut: 'fadeInDown',
+            animateIn: 'fadeOutDown',
+        });
+        //testimonial corousel end
 
         // scroller start
         $('a.scroll').bind('click', function(event) {
